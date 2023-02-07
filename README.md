@@ -86,22 +86,22 @@ high-order polynomials to estimate the causal treatment effect is flawed and rat
 be based on local low-order polynomials. The authors bring forth threefold arguments to show global 
 high-order polynomials as a poor model choice for regression discontinuity analysis.
 
-\begin{itemize}
-\item The first argument is that the estimates of the treatment effect can be driven by the values of 
+* The first argument is that the estimates of the treatment effect can be driven by the values of 
 the forcing variable that are away from the threshold. Since the RD estimate is the difference between 
 the weighted average of the outcome for the treated and untreated, wherein the weights depend only on 
 the forcing variable; the weights in a global high-order polynomial approximation are extreme and 
 unattractive compared to a local linear/quadratic approximation.
-\item The second argument put forward is that the estimates in the case of global high-order polynomials 
+
+* The second argument put forward is that the estimates in the case of global high-order polynomials 
 are highly sensitive to the chosen degree of the polynomial of the forcing variable $X$. Further, a lack 
 of just criteria to select the order of polynomials that is suitable for the estimator to satisfy its 
 objectives of causal inference exacerbates the issue.
-\item Finally, the third argument is that the confidence interval based on the estimates of global 
+
+* Finally, the third argument is that the confidence interval based on the estimates of global 
 high-order polynomials is often misleading. The confidence intervals can be too narrow that they reject 
 the null hypothesis even when it shouldn't have, that is, the probability of Type 1 error rate is much 
 higher than the nominal rate of 5\%. This implies that there is a higher bias in the case of global 
 high-order polynomials to detect a discontinuity even if there isn't one, and hence, generate poor inference.
-\end{itemize}
 
 The target of our paper is to test the veracity of these arguments through a simulation study and 
 empirical application (wherever possible). The paper hereby proceeds as follows. In the next section, 

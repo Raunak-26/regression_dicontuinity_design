@@ -61,7 +61,7 @@ continuity assumption, therefore, the average treatment effect, τSRD is given b
 outcome value at threshold 6.
 
 <p align="center">
-  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/Intro%20Sharp%20RDD.png" alt="Sharp Regression Discontinuity">
+  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/graphs/Intro%20Sharp%20RDD.png" alt="Sharp Regression Discontinuity">
   <br>
   <em>Sourced from Imbens and Lemieux (2007). X-Axis is the forcing variable, while Y-Axis is the outcome value</em>
 </p> 
@@ -222,7 +222,7 @@ above the threshold on the X-Axis and the corresponding weights on the Y-Axis wh
 figure below.
 
 <p align="center">
-  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/arg1_sim.png" alt="Argument 1 Simulation Global Weights"> 
+  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/graphs/arg1_sim.png" alt="Argument 1 Simulation Global Weights"> 
   <br>
   <em>Weights for Global High-Order Polynomial - Simulation Study</em>
 </p> 
@@ -235,7 +235,7 @@ to the global polynomial approach, we plot the derived weight vectors in order t
 assigned to each observation of the forcing variable that lies above the threshold.
 
 <p align="center">
-  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/arg1_sim_local.png" alt="Argument 1 Simulation Local Weights"> 
+  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/graphs/arg1_sim_local.png" alt="Argument 1 Simulation Local Weights"> 
   <br>
   <em>Weights for Local Linear and Quadratic Polynomial - Simulation Study</em>
 </p> 
@@ -331,7 +331,7 @@ rejection rate for the corresponding degree of the polynomial in the respective 
 parallels the $X-axis$ and corresponds to the true treatment effect, which is zero.
 
 <p align="center">
-  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rdd_arg3.png" alt="Argument 1 Simulation Global Weights"> 
+  <img src="https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/graphs/rdd_arg3.png" alt="Argument 1 Simulation Global Weights"> 
   <br>
   <em>Box plot showing Simulation Study Estimates</em>
 </p> 

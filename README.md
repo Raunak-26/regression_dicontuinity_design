@@ -242,7 +242,7 @@ assigned to each observation of the forcing variable that lies above the thresho
 
 Further, we perform the above stated steps for empirical application as well. We use the New York: 
 MDRC, 2012 dataset for this study. we arrive at similar results as of the simulation study. The detailed
-analysis of this empirical application can be found in the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/tree/main/paper">paper</a>.
+analysis of this empirical application can be found in the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>.
 
 # Argument 2: Estimates are Highly Sensitive to the Degree of Polynomial
 
@@ -348,7 +348,7 @@ significantly. This strengthens the fact that inferences from global polynomials
 nominal coverage.
 
 The Table below shows the result of global and local confidence interval rejection rate for both 
-simulation study and empirical application. You can see the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/tree/main/paper">paper</a>
+simulation study and empirical application. You can see the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
 for comprehensive interpretation of the results of argument 3.
 
 | Order of Polynomial | Rejection Rate (Simulation Study) | Median (s.e.) (Simulation Study) | Rejection Rate (Empirical Application) | Median (s.e.) (Empirical Application) |
@@ -396,6 +396,8 @@ that the results from the estimates are sensitive to the order of polynomial. Ba
 simulation results and empirical application this paper supports  the arguments of the paper 
 Gelman and Imbens (2019) and suggests to use local linear and quadratic approximations for 
 estimates of treatment effect.
+
+You can access the paper by clicking on this <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">link</a>.
 
 # Team
 

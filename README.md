@@ -7,7 +7,8 @@ Controlling for higher degrees of polynomials for the forcing variable is a comm
 practice in regression discontinuity analysis. Such models can overfit, resulting 
 in substantively implausible causal inferences that randomly contribute variation 
 to the high-degree polynomial and can lead to false estimates. The aim of this 
-paper is to investigate the three arguments presented in Gelman and Imbens (2019). 
+<a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
+is to investigate the three arguments presented in Gelman and Imbens (2019). 
 
 The arguments recommends against the use of high-order polynomial approximations 
 are: 
@@ -16,8 +17,8 @@ are:
 * the estimates are sensitive to the degree of polynomial, and
 * poor coverage of confidence intervals. 
 
-Instead of using global high-order polynomial, the paper suggests using local 
-linear or quadratic polynomial approximations.
+Instead of using global high-order polynomial, the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
+suggests using local linear or quadratic polynomial approximations.
 
 # Introduction
 
@@ -103,11 +104,13 @@ the null hypothesis even when it shouldn't have, that is, the probability of Typ
 higher than the nominal rate of 5\%. This implies that there is a higher bias in the case of global 
 high-order polynomials to detect a discontinuity even if there isn't one, and hence, generate poor inference.
 
-The target of our paper is to test the veracity of these arguments through a simulation study and 
-empirical application (wherever possible). The paper hereby proceeds as follows. In the next section, 
-we introduce the model specification of the RD design that is used to critique the aforementioned arguments. 
-Thereafter, we evaluate our results based on the simulation and empirical evidence so as to comment on 
-the feasibility of global high-order polynomials in RD design.
+The target of our <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
+is to test the veracity of these arguments through a simulation study and 
+empirical application (wherever possible). The <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
+hereby proceeds as follows. In the next section, we introduce the model specification of the RD design 
+that is used to critique the aforementioned arguments. Thereafter, we evaluate our results based on the 
+simulation and empirical evidence so as to comment on the feasibility of global high-order polynomials 
+in RD design.
 
 # Methodology
 
@@ -276,7 +279,7 @@ The results for the above simulation are shown in the table below.
 | local 2 | $0.54$ | $0.25$ | $11.19$ | $1.02$ |
 
 We also added the results of the empirical application in the last two columns. You can see
-the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/tree/main/paper">paper</a>
+the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
 for comprehensive interpretation of the results.
 
 # Argument 3: Inferences Do Not Achieve Nominal Coverage
@@ -367,8 +370,8 @@ for comprehensive interpretation of the results of argument 3.
 Regression Discontinuity Designs are one of the standard techniques used in econometrics 
 and statistics to obtain causal effects from the observed data. One of the practices in 
 implementing regression discontinuity designs is controlling for high-order polynomial 
-approximations for the treatment effect of the forcing variable. This paper is a review 
-of the paper written by Gelman and Imbens (2019) and strengthens the 
+approximations for the treatment effect of the forcing variable. This <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
+is a review of the paper written by Gelman and Imbens (2019) and strengthens the 
 three arguments and recommends not to use high-order polynomials to estimate the treatment 
 effects in regression discontinuity designs. The arguments are: the implicit weights 
 calculated for high-order polynomial approximations are unattractive, estimates are highly 
@@ -377,7 +380,8 @@ coverage. The arguments are presented in the context of sharp regression designs
 local linear or quadratic regression over global polynomials is recommended for fuzzy 
 regression designs as well.
     
-The point of the paper is to explore the three arguments suggested by Gelman and Imbens (2019). 
+The point of the <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
+is to explore the three arguments suggested by Gelman and Imbens (2019). 
 We conduct simulation studies based on regression discontinuity and empirical applications on 
 real data that support the authors´ arguments against using high-order polynomial approximations
 and instead recommends using local linear or quadratic estimates for estimating treatment effect. 
@@ -393,9 +397,9 @@ between the variables. This is mainly in the case where the forcing variable is 
 of the dependent variable. This implies to the case when including more polynomials in estimation 
 increases noise and do not reduce the bias. Thus, we move back to our discussion of Argument 2, 
 that the results from the estimates are sensitive to the order of polynomial. Based on the 
-simulation results and empirical application this paper supports  the arguments of the paper 
-Gelman and Imbens (2019) and suggests to use local linear and quadratic approximations for 
-estimates of treatment effect.
+simulation results and empirical application this <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">paper</a>
+supports  the arguments of the paper Gelman and Imbens (2019) and suggests to use local linear 
+and quadratic approximations for estimates of treatment effect.
 
 You can access the paper by clicking on this <a href= "https://github.com/vanshajbindlish/regression_dicontuinity_design/blob/main/paper/rm_paper.pdf">link</a>.
 
